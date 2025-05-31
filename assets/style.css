@@ -2,6 +2,11 @@ body{
     background-color: bisque;
     font-family: Bai Jamjurre;
 }
+
+#container{
+    display: flex;
+}
+
 footer{
     background-color: black;
     color: white;
