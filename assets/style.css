@@ -16,7 +16,6 @@ body{
 
 .cartao{
     margin: 1rem 1rem;
-    background-color: aqua;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -42,6 +41,17 @@ body{
 
 
 
+}
+
+
+.cartao__conteudo__pergunta p {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.cartao__conteudo__resposta{
+    color: var(--card-back-color);
+    font-weight: 700;
 }
 
 footer{
